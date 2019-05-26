@@ -13,6 +13,13 @@ img {
     padding: 1rem;
 }
 
+p,
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* OVERORDNET SLUT */
 
 /* LOGINSIDE CSS */
@@ -210,6 +217,84 @@ header {
 /* LANDINGPAGE SLUT */
 
 /* AFLEVERINGSSIDE CSS */
+#white {
+    background-color: white;
+}
+
+.afleveringer {
+    margin: 10px;
+}
+
+.afleveringer2 {
+    margin: 10px;
+    color: #EA5045;
+    font-size: 0.7rem;
+}
+
+#box1 {
+    margin: 10px;
+    height: 20vw;
+    width: 95vw;
+    background-color: rgba(222, 220, 219, 0.42);
+}
+
+.opgave_navn {
+    margin: 10px;
+    position: relative;
+    top: 10px;
+    font-size: 0.8rem;
+
+}
+
+.opgave_tekst {
+    margin: 10px;
+    position: relative;
+    top: 10px;
+    font-size: 0.6rem;
+}
+
+.pin {
+    display: flex;
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+
+}
+
+#box2 {
+    margin: 10px;
+    height: 20vw;
+    width: 95vw;
+    background-color: rgba(222, 220, 219, 0.42);
+}
+
+#box3 {
+    margin: 10px;
+    height: 20vw;
+    width: 95vw;
+    background-color: rgba(222, 220, 219, 0.42);
+}
+
+#box4 {
+    margin: 10px;
+    height: 20vw;
+    width: 95vw;
+    background-color: rgba(222, 220, 219, 0.42);
+}
+
+#box5 {
+    margin: 10px;
+    height: 20vw;
+    width: 95vw;
+    background-color: rgba(222, 220, 219, 0.42);
+}
+
+#box6 {
+    margin: 10px;
+    height: 20vw;
+    width: 95vw;
+    background-color: rgba(222, 220, 219, 0.42);
+}
 
 
 /* AFLEVERINGSSIDE SLUT */

@@ -97,7 +97,9 @@ header {
 
 #landingpage .top_landingpage {
     display: flex;
-
+    position: relative;
+    top: -25px;
+    left: -15px;
 
 }
 
@@ -118,6 +120,9 @@ header {
 
 #landingpage .mellem_landingpage {
     display: flex;
+    position: relative;
+    top: -75px;
+    left: -15px;
 }
 
 #landingpage .techlounge {
@@ -126,12 +131,85 @@ header {
 
 #landingpage .mail {
     margin: 10px;
-    height: 41.2vw;
-    width: 41.2vw;
+    height: 49.2vw;
+    width: 49.2vw;
 }
 
-#landingpage .mellem_landingpage_50 {
+#landingpage .mellem_landingpage_to {
     display: flex;
+    position: relative;
+    top: -150px;
+    left: -15px;
+}
+
+#landingpage .fav {
+    margin: 10px;
+}
+
+#landingpage .grupper {
+    margin: 10px;
+}
+
+#landingpage .chat {
+    margin: 10px;
+}
+
+#landingpage .mellem_landingpage_tre {
+
+    position: relative;
+    top: -200px;
+    left: -15px;
+}
+
+#landingpage .soeg {
+    margin: 10px;
+    height: 28vw;
+    width: 28vw;
+    position: relative;
+    top: 5px;
+}
+
+#landingpage .afleveringer {
+    margin: 10px;
+    height: 28vw;
+    width: 28vw;
+    position: relative;
+    top: 14px;
+}
+
+
+#landingpage .aktuelt {
+    margin: 10px;
+    height: 61.5vw;
+    width: 61.5vw;
+    position: relative;
+    left: 140px;
+    top: -250px;
+    padding-top: 0;
+}
+
+#landingpage .bottom {
+    display: flex;
+    position: relative;
+    top: -450px;
+    left: -15px;
+}
+
+#landingpage .xet {
+    margin: 10px;
+}
+
+#landingpage .xto {
+    margin: 10px;
+}
+
+#landingpage .xtre {
+    margin: 10px;
 }
 
 /* LANDINGPAGE SLUT */
+
+/* AFLEVERINGSSIDE CSS */
+
+
+/* AFLEVERINGSSIDE SLUT */

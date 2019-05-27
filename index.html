@@ -9,41 +9,53 @@
     <meta name="robots" content="noindex">
 </head>
 
-<body>
-    <section id="loginside">
-        <div class="topelement">
-            <div class="kealogo">
-                <img src="logininkoner/kealogo1.png">
-            </div>
-        </div>
-        <div class="bottomelement">
-            <div class="brugernavn">
-                <img src="logininkoner/brugernavn2.png">
-            </div>
+<body id="login">
+    <div class="background_login">
+        <div class="redbox">
 
-            <div class="adgangskode">
-                <img src="logininkoner/adgangskode3.png">
-            </div>
-
-            <br><br><br><br>
-
-            <div class="continue">
-                <a href="landing.html">
-                    <img src="logininkoner/continue4.png">
-                </a>
-
-
-            </div>
-
-            <div class="loginfacebook">
-                <img src="logininkoner/facebook5.png">
+            <div class="kea">
+                <img class="kea_logo" src="logininkoner/kealogo1.png" alt="login">
             </div>
         </div>
 
 
+        <form id="loginform" class="loginform" action="landing.html">
+            <div class="formgroup1">
+
+                <img class="userlog1" src="logininkoner/bruger.png" alt="login">
+                <input class="input2" type="text" placeholder="Brugernavn">
+            </div>
+
+            <div class="formgroup2">
+                <div class="logbutton">
+                    <img class="userlog2" src="logininkoner/login.png" alt="login">
+                </div>
+                <input class="input3" type="password" placeholder="Password">
+            </div>
+
+            <div class="formgroup3">
+                <a href="landing.html"><img class="unilog" src="logininkoner/continue4.png" alt="facebook"></a>
+                <input class="input4" type="submit" value="Login">
+            </div>
+
+            <div class="formgroup4">
+
+                <a href="landing.html"><img class="unilog" src="logininkoner/facebook5.png" alt="facebook"></a>
+                <input class="input1" type="submit" value>
+            </div>
 
 
-    </section>
+
+        </form>
+
+        <div class="contentsplit">
+            <div class="split">
+            </div>
+        </div>
+
+
+
+    </div>
     <script src="script.js"></script>
 </body>
 

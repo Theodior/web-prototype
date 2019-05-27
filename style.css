@@ -24,7 +24,197 @@ h3 {
 
 /* LOGINSIDE CSS */
 
-#loginside .topelement {
+.background_login {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FAF7F7;
+    height: 700px;
+    width: 320px;
+
+}
+
+.redbox a {
+    padding: ;
+    border: 100px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    border-width: 0px;
+    border-style: solid;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 3em;
+
+}
+
+#login .kea {
+    background-color: #EA5045;
+    width: 320px;
+    height: 180px;
+    padding: ;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#login .kea_logo {
+    width: 100px;
+    height: 40px;
+    padding-top: 0;
+}
+
+#loginform {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.formgroup1 {
+    position: absolute;
+    left: 2rem;
+    top: 20rem;
+}
+
+#loging a {
+    text-decoration: none;
+    margin: 0.8rem 1rem 0.5rem 1rem;
+    padding: 0.2rem;
+    color: white;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+p,
+label,
+input,
+table {
+    font-family: Arial;
+    font-weight: normal;
+}
+
+.unilog {
+    position: absolute;
+    left: -1rem;
+    top: -2rem;
+}
+
+#loginform input {
+    width: 17rem;
+    height: 2.6rem;
+    border-radius: 0%;
+    border-width: 0px;
+}
+
+
+
+.formgroup2 {
+    position: absolute;
+    left: 2rem;
+    top: 24rem;
+}
+
+div {
+    display: block;
+}
+
+.userlog1 {
+    position: absolute;
+    width: 2rem;
+    left: 220px;
+    top: 6px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#loginform input {
+    width: 17rem;
+    height: 2.6rem;
+    border-radius: 0%;
+    border-width: 0px;
+}
+
+.input2,
+.input3 {
+    background-color: purple color: white;
+}
+
+.formgroup3 {
+    position: absolute;
+    left: 2rem;
+    top: 28rem;
+}
+
+
+div {
+    display: block;
+}
+
+.userlog2 {
+    position: absolute;
+    width: 2.1rem;
+    left: 218px;
+    top: 2.5px;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+
+.formgroup4 {
+    position: absolute;
+    left: 2rem;
+    top: 32rem;
+    background-color: #EA5045;
+}
+
+div {
+    display: block;
+}
+
+#loginform input {
+    width: 17rem;
+    height: 2.6rem;
+    border-radius: 0%;
+    border-width: 0px;
+}
+
+
+.contentsplit {
+    width: 180px;
+    height: 60px;
+    padding: 20px 0px 0px 0px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boxsplit {
+    width: 20px;
+    color: lightgrey;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+/*#loginside .topelement {
     background-color: #EA5045;
     width: 31rem;
     height: 25rem;
@@ -35,7 +225,7 @@ h3 {
     width: 7rem;
     height: 4rem;
     top: 8rem;
-    left: 11rem;
+    left: 9rem;
 
 }
 
@@ -43,36 +233,46 @@ h3 {
     background-color: #FAF7F7;
     width: 31rem;
     height: 40rem;
+
 }
 
 #loginside .brugernavn {
     display: flex;
     justify-content: center;
     width: 33rem;
-    height: 7rem
+    height: 7rem;
+    position: relative;
+    left: -50px;
+
 }
 
 #loginside .adgangskode {
     display: flex;
     justify-content: center;
     width: 33rem;
-    height: 7rem
+    height: 7rem;
+    position: relative;
+    left: -50px;
 }
 
 #loginside .continue {
     display: flex;
     justify-content: center;
     width: 33rem;
-    height: 7rem
+    height: 7rem;
+    position: relative;
+    left: -50px;
 }
 
 #loginside .loginfacebook {
     display: flex;
     justify-content: center;
     width: 33rem;
-    height: 7rem
+    height: 7rem;
+    position: relative;
+    left: -50px;
 }
-
+*/
 /* LOGINSIDE SLUT */
 
 /* LANDINGPAGE CSS */

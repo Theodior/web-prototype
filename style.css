@@ -24,7 +24,34 @@ h3 {
 
 /* BURGERMENU CSS */
 
+.hidden {
+    /*    display: none;*/
+    /*    transform: scale(0);*/
+    transform: translateY(-100%);
+    opacity: 0;
+}
 
+#menuknap {
+    color: white;
+
+}
+
+#menuknap {
+    display: inline-block;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+}
+
+.burgermenu {
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    margin: 1vw 4vw;
+}
 
 /* BURGERMENU SLUT */
 
@@ -401,10 +428,20 @@ header {
 
 .pin {
     display: flex;
-    width: 15vw;
-    height: 15vw;
+    width: 50px;
+    height: 100px;
     position: relative;
+    left: 400px;
+    top: -40px;
+}
 
+.arrow {
+    display: flex;
+    width: 50px;
+    height: 100px;
+    position: relative;
+    left: 400px;
+    top: -50px;
 }
 
 #box2 {

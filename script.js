@@ -1,26 +1,14 @@
-/*Arrowmenu*/
-window.addEventListener("load", afleveringVises);
+var coll = document.getElementsByClassName("collapsible");
+var i;
 
-
-function afleveringVises() {
-    console.log("afleveringVises");
-
-    document.querySelector("#arrowknap").addEventListener("click", toggleArrowMenu);
-
-
-}
-
-
-function toggleArrowMenu() {
-    console.log("toggleArrowMenu");
-    document.querySelector("#arrowmenu").classList.toggle("hidden");
-
-    let erSkjult =
-        document.querySelector("#arrowmenu").classList.contains("hidden");
-
-    if (erSkjult == true) {
-        document.querySelector("#arrowknap").textContent = "▼";
-    } else {
-        document.querySelector("#arrowknap").textContent = "▲";
-    }
+for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+    });
 }
